@@ -1,12 +1,19 @@
+import { MarketStories } from "../api/marketStories";
 import Layout from "../components/Layout";
 
 export default function Home() {
   return <Layout>
+<div>
+  <h1 style={{color:"red"}} className="font-semibold text-left">DISCUSSION FORUM</h1>
+</div>
+<div className="justify-center items-center flex">
 
 
 
-<div className="grid grid-cols-1 md:grid-cols-2">
+<div className="grid grid-cols-1 ">
   <card className="rounded overflow-hidden shadow-lg">
+    
+
   <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
 
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto gap-8">
@@ -37,9 +44,9 @@ export default function Home() {
 </nav>
 
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg text-text">
+<div class="max-w-sm rounded overflow-hidden text-text">
  <div className="justify-center items-center text-center">
-  <h1>INFIBEAM AVENUES</h1>
+  <h1 className="font-bold text-2xl mt-5">INFIBEAM AVENUES</h1>
   </div>
   <div class="px-6 py-4">
     <div class="font-bold text-xs mb-2">Lorem Ipsum</div>
@@ -48,26 +55,25 @@ export default function Home() {
     </p>
   </div>
   <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># 2k</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># 2k</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"># share</span>
+
+ 
   </div>
 </div>
   </card>
 
   
 
-  <div>
-hei
-
-</div>
+ 
 
 
 
 </div>
 
 
-
+</div>
 
 
 
